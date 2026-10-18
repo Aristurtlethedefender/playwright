@@ -4,6 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "run-test": "echo 'hello world'",
     "typecheck": "bun check"
   },
   "devDependencies": {
@@ -11,5 +12,8 @@
   },
   "peerDependencies": {
     "typescript": "^7"
+  },
+  "dependencies": {
+    "playwright": "^1.64.1"
   }
 }
