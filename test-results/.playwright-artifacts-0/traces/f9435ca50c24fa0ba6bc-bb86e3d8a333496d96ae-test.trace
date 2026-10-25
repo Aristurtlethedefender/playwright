@@ -1,0 +1,20 @@
+{"version":10,"type":"context-options","origin":"testRunner","browserName":"","playwrightVersion":"1.64.1","options":{},"platform":"win32","wallTime":1792929377776,"monotonicTime":7826.79,"sdkLanguage":"javascript"}
+{"type":"before","callId":"aesv@1","startTime":7841.32,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"aesv@31","parentId":"aesv@1","startTime":7848.649,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"before","callId":"aesv@32","parentId":"aesv@31","startTime":7849.97,"class":"Test","method":"pw:api","title":"Launch browser","params":{},"stack":[]}
+{"type":"after","callId":"aesv@32","endTime":8913.119,"annotations":[]}
+{"type":"after","callId":"aesv@31","endTime":8913.291,"annotations":[]}
+{"type":"before","callId":"aesv@35","parentId":"aesv@1","startTime":8914.301,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"aesv@36","parentId":"aesv@35","startTime":8915.144,"class":"Test","method":"pw:api","title":"Create context","params":{},"stack":[]}
+{"type":"after","callId":"aesv@36","endTime":8958.79,"annotations":[]}
+{"type":"after","callId":"aesv@35","endTime":8964.139,"annotations":[]}
+{"type":"before","callId":"aesv@43","parentId":"aesv@1","startTime":8964.45,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"aesv@44","parentId":"aesv@43","startTime":8965.067,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"aesv@44","endTime":11885.633,"annotations":[]}
+{"type":"after","callId":"aesv@43","endTime":11885.733,"annotations":[]}
+{"type":"after","callId":"aesv@1","endTime":11885.795,"annotations":[]}
+{"type":"before","callId":"aesv@46","startTime":11887.218,"class":"Test","method":"pw:api","title":"Navigate","subtitle":"barangayos.com/demo1/staff/dashboard","params":{"url":"https://barangayos.com/demo1/staff/dashboard"},"stack":[{"file":"C:\\Users\\NotaScribe\\code-workspace\\playwright\\tests\\barangayos.spec.js","line":5,"column":14}]}
+{"type":"after","callId":"aesv@46","endTime":16714.427,"annotations":[]}
+{"type":"before","callId":"aesv@48","startTime":16715.397,"class":"Test","method":"pw:api","title":"Pause","params":{},"stack":[{"file":"C:\\Users\\NotaScribe\\code-workspace\\playwright\\tests\\barangayos.spec.js","line":6,"column":14}]}
+{"type":"after","callId":"aesv@48","endTime":16717.015,"annotations":[]}
+{"type":"before","callId":"aesv@50","startTime":16719.637,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('link', { name: 'Bebot, Beta' })","params":{"locator":"getByRole('link', { name: 'Bebot, Beta' })"},"stack":[{"file":"C:\\Users\\NotaScribe\\code-workspace\\playwright\\tests\\barangayos.spec.js","line":7,"column":57}]}

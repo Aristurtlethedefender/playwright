@@ -1,0 +1,7 @@
+{"type":"send","time":1792929387226.6272,"opcode":1,"data":"{\"connectionCount\":0,\"lastCloseReason\":\"InitialConnect\",\"clientTs\":1792929392577,\"type\":\"Connect\",\"sessionId\":\"4ab7061b-96b5-467b-8aa0-990bce1dc654\"}"}
+{"type":"send","time":1792929387226.8362,"opcode":1,"data":"{\"type\":\"ModifyQuerySet\",\"baseVersion\":0,\"newVersion\":1,\"modifications\":[{\"type\":\"Add\",\"queryId\":0,\"udfPath\":\"platformAdmin:getLoginBranding\",\"args\":[{\"organizationId\":\"ks71p8yn0xw6985b9mgg224m8n81vtmg\"}]}]}"}
+{"type":"receive","time":1792929387499.4631,"opcode":1,"data":"{\"type\":\"Transition\",\"startVersion\":{\"querySet\":0,\"identity\":0,\"ts\":\"AAAAAAAAAAA=\"},\"endVersion\":{\"querySet\":1,\"identity\":0,\"ts\":\"RjWfysTD4Rg=\"},\"modifications\":[{\"type\":\"QueryUpdated\",\"queryId\":0,\"value\":{\"logoUrl\":\"https://api.cloud.barangayos.com/api/storage/94eb18eb-5eec-4205-af83-ad17513f2731\",\"municipality\":\"City of Cebu\",\"name\":\"BarangayOS\",\"portalLoginImageUrl\":null,\"primaryColor\":\"blue\",\"province\":\"Cebu\",\"sidebarColored\":false,\"staffLoginImageUrl\":null,\"themePreset\":\"zinc\"},\"logLines\":[],\"journal\":null}],\"clientClockSkew\":6497,\"serverTs\":1792929386085126387}"}
+{"type":"receive","time":1792929402500.5142,"opcode":1,"data":"{\"type\":\"Ping\"}"}
+{"type":"receive","time":1792929417502.0461,"opcode":1,"data":"{\"type\":\"Ping\"}"}
+{"type":"receive","time":1792929432505.8333,"opcode":1,"data":"{\"type\":\"Ping\"}"}
+{"type":"receive","time":1792929447504.7122,"opcode":1,"data":"{\"type\":\"Ping\"}"}

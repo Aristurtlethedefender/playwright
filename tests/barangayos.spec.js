@@ -1,11 +1,9 @@
 import { test, expect } from '@playwright/test';
 
-// Tell this specific test to use your saved logged-in session:
-test.use({ storageState: 'auth.json' });
-
 test('BarangayOS Staff Navigation and Workflow Test', async ({ page }) => {
   // 1. Dashboard Navigation
   await page.goto('https://barangayos.com/demo1/staff/dashboard');
+  await page.pause();
   await page.getByRole('link', { name: 'Bebot, Beta' }).click();
 
   // 2. Document Requests Flow
@@ -97,3 +95,4 @@ test('BarangayOS Staff Navigation and Workflow Test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Email' }).fill('test@gmail.com');
   await page.getByRole('textbox', { name: 'Phone' }).fill('000000000');
   await page.getByRole('textbox', { name: 'Address' }).fill('Test city');
+});
